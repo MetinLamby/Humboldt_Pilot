@@ -1,0 +1,80 @@
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  //border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-category:hover h4{
+  text-decoration: underline;
+}
+
+
+
+#top-left {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(tutor-copy.jpg);
+  background-size: cover;
+}
+
+#top-middle {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(girl-copy.jpg);
+  background-size: cover;
+}
+
+#top-right {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(canteen-copy.jpg);
+  background-size: cover;
+}
+
+#toptop-left {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(unterstufe.jpg);
+  background-size: cover;
+}
+
+#toptop-middle {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(oberstufe.jpg);
+  background-size: cover;
+}
+
+#toptop-right {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(abitur.jpg);
+  background-size: cover;
+}
+
+.interview-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  .image-card {
+    height: 350px;
+    width: 90%;
+    border-radius: 5px;
+  }
+  .card-name {
+    font-size: 24px;
+    color: #FB850E;
+    margin-top: 15px;
+  }
+  #left {
+    background: url(kid-copy.jpg);
+    background-size: cover;
+  }
+  #middle {
+    background: url(teen-copy.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #right {
+    background: url(graduate-copy.jpg);
+    background-size: cover;
+    background-position: bottom;
+  }
+}

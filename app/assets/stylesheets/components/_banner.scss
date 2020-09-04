@@ -1,0 +1,25 @@
+#banner {
+  height: 90vh;
+  width: 100vw;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(banner-copy.jpg);
+  background-size: cover;
+  position: relative;
+  .explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    p {
+      color: white;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    i {
+      color: white;
+      font-size: 35px;
+    }
+  }
+}

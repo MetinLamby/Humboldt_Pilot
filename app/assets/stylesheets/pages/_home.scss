@@ -1,1 +1,185 @@
 // Specific CSS for your home-page
+
+
+
+.introduction {
+  padding: 50px;
+  margin-bottom: 50px;
+  h1 {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .introduction-div {
+    padding: 0px 100px;
+    display: flex;
+  }
+  .director-image {
+    width: 40%;
+    height: 500px;
+    border-radius: 5px;
+    background-image: url(direktor-copy.jpg);
+    background-size: cover;
+  }
+  .introduction-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 40px;
+    padding: 40px 0px;
+    .check-line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      i {
+        font-size: 60px;
+        color: #FB850E;
+        margin-right: 30px;
+      }
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+
+
+#quotes-icon {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(quotes-two.svg);
+  background-size: 100px 82px;
+  margin-bottom: -42px;
+  left: 120px;
+  position: relative;
+  z-index: 5;
+}
+
+
+.quote {
+  background-color: #FEEBD7;
+  height: 50vh;
+  width: 100vw;
+  //padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .quote-text {
+    height: auto;
+    width: 70%;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.interviews {
+  padding: 0px 80px;
+  margin-bottom: 50px;
+  h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+
+.zahlen {
+  background-color: #FEEBD7;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .zahlen-text {
+    height: auto;
+    width: 95%;
+    text-align: center !important;
+  }
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  .stat-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      font-size: 64px;
+    }
+    p {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+}
+
+.ort {
+  text-align: center;
+  h1 {
+    margin: 50px 0px;
+  }
+  .video {
+    height: 80vh;
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(banner-copy.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i {
+      font-size: 55px;
+      color: white;
+    }
+  }
+}
