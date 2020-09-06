@@ -1,26 +1,41 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon" id="nav">
-  <a class="navbar-brand" href="#">
-    <%= image_tag("humboldtLogo", {:style => "width:70px;"}) %>
-</a>
+
+  <div class="school-name-logo">
+    <a class="navbar-brand-two" href="#">
+      <div class="navbar-brand">
+        <p>test</p>
+      </div>
+    </a>
+    <div class="school-name">
+      <h4>Humboldt Schule</h4>
+      <h4>Wiesbaden</h4>
+    </div>
+  </div>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+    <ul class="navbar-nav mr-auto" id="unordered-nav-list">
+      <li class="nav-item">
+        <a class="nav-link" id="one" href="#" style="color: white">Unsere Schule</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Messages</a>
+        <a class="nav-link" id="two" href="#" style="color: white">Aufnahmen</a>
       </li>
-      <li class="nav-item dropdown">
-        <img class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://kitt.lewagon.com/placeholder/users/ssaunier" />
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" id="three" href="#" style="color: white">Schulleben</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="four" href="#" style="color: white">Unterricht</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="five" href="#" style="color: white">Chronik</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="six" href="#" style="color: white">Intern</a>
       </li>
     </ul>
   </div>
