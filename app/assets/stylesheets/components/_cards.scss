@@ -20,32 +20,32 @@
 
 
 #top-left {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(tutor-copy.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), asset-url(tutor-copy.jpg);
   background-size: cover;
 }
 
 #top-middle {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(girl-copy.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), asset-url(girl-copy.jpg);
   background-size: cover;
 }
 
 #top-right {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(canteen-copy.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), asset-url(canteen-copy.jpg);
   background-size: cover;
 }
 
 #toptop-left {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(unterstufe.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), asset-url(unterstufe.jpg);
   background-size: cover;
 }
 
 #toptop-middle {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(oberstufe.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), asset-url(oberstufe.jpg);
   background-size: cover;
 }
 
 #toptop-right {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(abitur.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), asset-url(abitur.jpg);
   background-size: cover;
 }
 
@@ -64,16 +64,16 @@
     margin-top: 15px;
   }
   #left {
-    background: url(kid-copy.jpg);
+    background-image: asset-url(kid-copy.jpg);
     background-size: cover;
   }
   #middle {
-    background: url(teen-copy.jpg);
+    background-image: asset-url(teen-copy.jpg);
     background-size: cover;
     background-position: center;
   }
   #right {
-    background: url(graduate-copy.jpg);
+    background-image: asset-url(graduate-copy.jpg);
     background-size: cover;
     background-position: bottom;
   }
